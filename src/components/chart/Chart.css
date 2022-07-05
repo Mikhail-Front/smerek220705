@@ -1,0 +1,46 @@
+.chart {
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.chart__title {
+  font-size: 20px;
+  color: #313131;
+  text-transform: uppercase;
+}
+
+.chart-block {
+  width: 100%;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.chart-block__label {
+  font-size: 16px;
+  color: #313131;
+  text-align: right;
+  width: 100%;
+  max-width: 100px;
+  margin-right: 10px;
+}
+
+.chart-block__default {
+  width: 100%;
+  max-width: 500px;
+  height: 40px;
+  background-color: #f9f9f9;
+  position: relative;
+}
+
+.chart-block__default .time {
+  position: absolute;
+  background-color: #a1dada;
+  height: 100%;
+  text-align: center;
+  border-radius: 2px;
+  line-height: 40px;
+  font-size: 16px;
+}
